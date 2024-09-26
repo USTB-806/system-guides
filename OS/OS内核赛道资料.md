@@ -1,0 +1,50 @@
+## OS内核赛道资料
+
+操作系统入门：
+
+南京大学操作系统课程 蒋炎岩老师：[绿导师原谅你了的个人空间-绿导师原谅你了个人主页-哔哩哔哩视频 (bilibili.com)](https://space.bilibili.com/202224425?spm_id_from=333.337.0.0)
+
+大赛官网：[全国大学生计算机系统能力大赛 (educg.net)](https://os.educg.net/#/)
+
+rust教程：[Rust语言圣经(Rust Course)](https://course.rs/about-book.html)
+[Rust 语言实战](https://github.com/sunface/rust-by-practice)
+[Rust速查表（cheatsheet）](https://cheats.rs/) 该项目不仅提供了基础的语法速查，还有执行顺序详解和编写时需要关注的注意事项。项目还包含了示例代码（EX）、书籍（BK）、标准（STD）等相关资料的扩展。
+
+rcore教程：[rCore-Tutorial-Book 第三版](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter0/index.html) [rCore-Tutorial-Guide-2024S 文档 (learningos.cn)](https://learningos.cn/rCore-Tutorial-Guide-2024S/)
+
+MIT 6.S081: Operating System Engineering：https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S081/
+
+RISC-V手册：[Volume I](C:\Users\ck_lo\Downloads\Documents\riscv-spec-20191213.pdf)[Volme II](C:\Users\ck_lo\Downloads\Documents\riscv-privileged-20211203.pdf)[ABI](C:\Users\ck_lo\Downloads\Documents\riscv-abi.pdf)[中文版本](C:/Users/ck_lo/Downloads/Documents/RISC-V-Reader-Chinese-v2p12017.pdf)
+
+linux for RISCV 内核内存布局：[RISC-V Linux上的虚拟内存布局 — The Linux Kernel documentation](https://www.kernel.org/doc/html/v6.8/translations/zh_CN/arch/riscv/vm-layout.html)
+
+#### 自学risc-v系统结构 （全部选学）
+- （Option）自学[PPT for RISC-V特权指令级架构](https://content.riscv.org/wp-content/uploads/2018/05/riscv-privileged-BCN.v7-2.pdf)
+- （Option）自学[RISC-V手册：一本开源指令集的指南](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v2p1.pdf) 重点是第10章
+- （Option）自学[RISC-V特权指令级规范](https://riscv.org/technical/specifications/) 重点是与OS相关的特权硬件访问的规范内容（Privileged Spec）
+- （Option）自学[RISC-V汇编手册](https://github.com/riscv-non-isa/riscv-asm-manual/blob/master/riscv-asm.md)
+- （Option）[计算机组成与设计：RISC-V 教材](https://item.jd.com/12887758.html) 这是完整的课程教材，不要求全部看完，请根据自己的需求选择。
+- （Option）[计算机组成与设计：RISC-V 浙大在线课程](http://www.icourse163.org/course/ZJU-1452997167) 这是完整的一门课，不要求全部看完，请根据自己的需求选择。
+
+### ArceOS Tutorial book:
+
+[ArceOS 框架设计 - ArceOS Tutorial Book (rcore-os.cn)](https://rcore-os.cn/arceos-tutorial-book/ch02-02.html)（没写完）
+
+### 2024初赛样例：
+
+[oscomp/testsuits-for-oskernel at main (github.com)](https://github.com/oscomp/testsuits-for-oskernel/tree/main?tab=readme-ov-file)
+
+### 2024初赛赛题：
+
+[testsuits-for-oskernel/oscomp_syscalls.md at main · oscomp/testsuits-for-oskernel (github.com)](https://github.com/oscomp/testsuits-for-oskernel/blob/main/oscomp_syscalls.md)
+
+### 往届作品：
+
+| PLNTRY           | 西安交通大学           | https://gitlab.eduxiji.net/PLNTRY/OSKernel2023-umi           |
+| ---------------- | ---------------------- | ------------------------------------------------------------ |
+| Main.os(2)(1)(1) | 北京科技大学           | https://gitlab.eduxiji.net/202310008101520/oskernel2023-x    |
+| 你说对不队       | 河南科技大学           | https://gitlab.eduxiji.net/202310464101015/oskernel2023-byteos |
+| Alien            | 北京理工大学           | https://gitlab.eduxiji.net/202310007101563/Alien             |
+| 种田队           | 北京航空航天大学       | https://gitlab.eduxiji.net/202310006101080/zhongtianos       |
+| Titanix          | 哈尔滨工业大学（深圳） | https://gitlab.eduxiji.net/202318123101314/oskernel2023-Titanix |
+
