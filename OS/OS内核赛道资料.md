@@ -14,7 +14,7 @@ rcore教程：[rCore-Tutorial-Book 第三版](https://rcore-os.cn/rCore-Tutorial
 
 MIT 6.S081: Operating System Engineering：https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S081/
 
-RISC-V手册：[Volume I](C:\Users\ck_lo\Downloads\Documents\riscv-spec-20191213.pdf)[Volme II](C:\Users\ck_lo\Downloads\Documents\riscv-privileged-20211203.pdf)[ABI](C:\Users\ck_lo\Downloads\Documents\riscv-abi.pdf)[中文版本](C:/Users/ck_lo/Downloads/Documents/RISC-V-Reader-Chinese-v2p12017.pdf)
+RISC-V手册： [riscv-privileged.pdf](riscv-privileged.pdf)  [riscv-unprivileged.pdf](riscv-unprivileged.pdf) 
 
 linux for RISCV 内核内存布局：[RISC-V Linux上的虚拟内存布局 — The Linux Kernel documentation](https://www.kernel.org/doc/html/v6.8/translations/zh_CN/arch/riscv/vm-layout.html)
 
@@ -40,11 +40,11 @@ linux for RISCV 内核内存布局：[RISC-V Linux上的虚拟内存布局 — T
 
 ### 往届作品：
 
-| PLNTRY           | 西安交通大学           | https://gitlab.eduxiji.net/PLNTRY/OSKernel2023-umi           |
-| ---------------- | ---------------------- | ------------------------------------------------------------ |
-| Main.os(2)(1)(1) | 北京科技大学           | https://gitlab.eduxiji.net/202310008101520/oskernel2023-x    |
-| 你说对不队       | 河南科技大学           | https://gitlab.eduxiji.net/202310464101015/oskernel2023-byteos |
-| Alien            | 北京理工大学           | https://gitlab.eduxiji.net/202310007101563/Alien             |
-| 种田队           | 北京航空航天大学       | https://gitlab.eduxiji.net/202310006101080/zhongtianos       |
-| Titanix          | 哈尔滨工业大学（深圳） | https://gitlab.eduxiji.net/202318123101314/oskernel2023-Titanix |
+| **PLNTRY**           | **西安交通大学**           | **https://gitlab.eduxiji.net/PLNTRY/OSKernel2023-umi**       |
+| -------------------- | -------------------------- | ------------------------------------------------------------ |
+| **Main.os(2)(1)(1)** | **北京科技大学**           | **https://gitlab.eduxiji.net/202310008101520/oskernel2023-x** |
+| **你说对不队**       | **河南科技大学**           | **https://gitlab.eduxiji.net/202310464101015/oskernel2023-byteos** |
+| **Alien**            | **北京理工大学**           | **https://gitlab.eduxiji.net/202310007101563/Alien**         |
+| **种田队**           | **北京航空航天大学**       | **https://gitlab.eduxiji.net/202310006101080/zhongtianos**   |
+| **Titanix**          | **哈尔滨工业大学（深圳）** | **https://gitlab.eduxiji.net/202318123101314/oskernel2023-Titanix** |
 
