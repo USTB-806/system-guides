@@ -9,6 +9,6 @@
 
 如果你想了解一下前人的参赛和学习经历，欢迎访问他们的博客：
 
-[SaZiKK](https://sazikk.github.io/)
+[SaZiKK](https://sazikk.top/)
 
 [Nelson's Note (bosswnx.xyz)](https://note.bosswnx.xyz/)
