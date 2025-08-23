@@ -6,7 +6,11 @@
 
 南京大学PA（非常推荐，经典必学）：[Introduction · GitBook (nju-projectn.github.io)](https://nju-projectn.github.io/ics-pa-gitbook/ics2024/)
 
+Berkeley 大学的 CS61 系列大致涵盖了整个技术栈的基础：[CS61A: Structure and Interpretation of Computer Programs](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Python/CS61A/)
+
 MIT计算机教育中缺失的一课：[计算机教育中缺失的一课 · the missing semester of your cs education (missing-semester-cn.github.io)](https://missing-semester-cn.github.io/)
+
+对函数式编程和编程语言感兴趣的同学可以学习 [计算机程序的构造与解释](https://book.douban.com/subject/1148282/) 
 
 如果你不知道CS囊括哪些领域，[这个网站](https://csdiy.wiki/)可以帮你了解
 
