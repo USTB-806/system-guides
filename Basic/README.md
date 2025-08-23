@@ -4,7 +4,7 @@
 
 ## 基础学习资料
 
-南京大学PA（非常推荐，经典必学）：[Introduction · GitBook (nju-projectn.github.io)](https://nju-projectn.github.io/ics-pa-gitbook/ics2024/)
+南京大学PA（非常推荐，经典必学）：[Introduction · GitBook (nju-projectn.github.io)](https://nju-projectn.github.io/ics-pa-gitbook/)
 
 Berkeley 大学的 CS61 系列大致涵盖了整个技术栈的基础：[CS61A: Structure and Interpretation of Computer Programs](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Python/CS61A/)
 
