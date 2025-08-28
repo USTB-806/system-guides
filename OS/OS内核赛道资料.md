@@ -10,24 +10,27 @@ jyy 老师的课门槛不高，非常推荐，可以在吃饭或者写代码时�
  
 Rust 在 sys 领域的应用越来越多，清华的操作系统实验（rcore）也已经选用了 Rust，在系统能力大赛的内核赛道中更是大多数队伍使用 Rust 实现。对于操作系统感兴趣，想进一步参加比赛，探索操作系统方向的，Rust 非常值得你学习。
 
-[Rust语言圣经(Rust Course)](https://course.rs/about-book.html)
-[Rust 语言实战](https://github.com/sunface/rust-by-practice)
-[Rust速查表（cheatsheet）](https://cheats.rs/) 该项目不仅提供了基础的语法速查，还有执行顺序详解和编写时需要关注的注意事项。项目还包含了示例代码（EX）、书籍（BK）、标准（STD）等相关资料的扩展。
+2025 年的系内核实现赛前 10 个队伍均使用 Rust，没有一支队伍使用 C 实现。
+
+- [Rust语言圣经(Rust Course)](https://course.rs/about-book.html)
+- [Rust 语言实战](https://github.com/sunface/rust-by-practice)
+- [Rust速查表（cheatsheet）](https://cheats.rs/) 该项目不仅提供了基础的语法速查，还有执行顺序详解和编写时需要关注的注意事项。项目还包含了示例代码（EX）、书籍（BK）、标准（STD）等相关资料的扩展。
 
 ### 实战和比赛前置
 
 只是听课当然不足以让你有能力参加系统能力大赛，你需要一系列前置的实验和学习，以下是一些很好的参考：
 
-（如果你是北科的同学，正在修读操作系统这门课，可以视情况和你的老师/助教商量，使用以下的某个实验代替本校的操作系统实验）
+系统能力大赛允许使用已有的内核进行改写，如果你选择了没有多架构支持的内核，需要预留足够的时间来实现对其他架构的支持，另外还需要实现能够兼容 `glibc` 和 `musl` 这两种主流的 C 标准库，仅仅完成下列的实验还不足以进入决赛。
 
+如果你是北科的同学，正在修读操作系统这门课，可以视情况和你的老师/助教商量，使用以下的某个实验代替本校的操作系统实验：
 
 #### rCore
-清华的操作系统实验，目前国内最优秀的操作系统实验之一，建议通过 **rCore-Tutorial-Book** 进行理论学习，通过 **rCore-Tutorial-Guide-2024S** 进行实践。独立完成 rCore 之后，相信你就会有能力参与系统能力大赛，并获得不错的奖项。注意，学习 rCore 需要你前置的学习 Rust。
+清华的操作系统实验，目前国内最优秀的操作系统实验之一，建议通过 **rCore-Tutorial-Book** 进行理论学习，通过 **rCore-Tutorial-Guide** 进行实践。独立完成 rCore 之后，相信你就会有能力参与系统能力大赛，并获得不错的奖项。注意，学习 rCore 需要你前置的学习 Rust。
 
-如果你选择 rCore，我非常推荐你参加[清华开源操作系统夏令营](https://opencamp.cn/os2edu/camp/2025spring)，训练营包含了从 Rust 到 rCore 的全流程教程和测评机，时间上**与系统能力大赛并不冲突**，且顺利结营可以有机会获得到清华的实习机会。
+如果你选择 rCore，我非常推荐你参加[清华开源操作系统训练营](https://opencamp.cn/os2edu/camp/)，训练营包含了从 Rust 到 rCore 的全流程教程和测评机，且顺利结营可以有机会获得到清华的实习机会。
 
-[rCore-Tutorial-Book 第三版](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter0/index.html) 
-[rCore-Tutorial-Guide-2024S 文档 (learningos.cn)](https://learningos.cn/rCore-Tutorial-Guide-2024S/)
+- [rCore-Tutorial-Book 第三版](https://rcore-os.cn/rCore-Tutorial-Book-v3/chapter0/index.html) 
+- [rCore-Tutorial-Guide-2025S 文档 (learningos.cn)](https://learningos.cn/rCore-Camp-Guide-2025S/)
 
 #### jyyos
 
@@ -43,7 +46,15 @@ jyy 老师的课在 2025 年改版，配套实验只剩下了更加偏向于考�
 
 https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S081/
 
-### risc-v 体系结构
+### Linux
+
+想要参加比赛可能需要学习 [Linux 源码](https://mirrors.edge.kernel.org/pub/linux/kernel/) 来实现诸如信号、网络栈等机制，2.0.36 和 4.19.36 是两个较旧但是比较稳定的版本。
+
+参考这些经典的实现肯定是比较好的。当然，参考往年的内核也是可以的，不过评委们都会说大家的内核都是东拼西凑的。
+
+因为操作系统设计赛正如其名是一个需要考虑工程设计的比赛，评委们希望参赛选手能对内核有真正自己的理解，而不是简单复用别人已有的代码。
+
+### 体系结构
 
 系统能力大赛分为 RISCV 和 LoongArch 两个赛道（2025年开始，初赛要求同时支持两个架构），对于 RISCV 的深入理解在编写操作系统的时候极其重要，下面是一些资料。
 
@@ -51,6 +62,9 @@ https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S081/
 [riscv-privileged.pdf](riscv-privileged.pdf)  
 [riscv-unprivileged.pdf](riscv-unprivileged.pdf) 
 **记住，RTFM**
+
+**LoongArch 手册**：
+[LoongArch-Vol1-v1.10-CN](LoongArch-Vol1-v1.10-CN.pdf)
 
 linux for RISCV 内核内存布局：[RISC-V Linux上的虚拟内存布局 — The Linux Kernel documentation](https://www.kernel.org/doc/html/v6.8/translations/zh_CN/arch/riscv/vm-layout.html)
 Linux 的文档，动手写的时候会很有用。
@@ -87,6 +101,8 @@ ArceOS 的文档目前还没有写完，可以参考一下。
 
 比赛允许借鉴，借鉴其他的优秀设计是开发 kernel 的重要一环。
 当然，不能全抄
+
+2023 年相关作品：
 
 | 队名          | **学校**           | **仓库链接**       |
 | -------------------- | -------------------------- | ------------------------------------------------------------ |
